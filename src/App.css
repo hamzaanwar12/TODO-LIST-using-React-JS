@@ -1,0 +1,11 @@
+div.error ,h2{
+  margin: auto;
+  background-color: white;
+}
+div.error{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  margin-top: 1rem;
+}

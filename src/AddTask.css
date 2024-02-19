@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+form{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    min-height:4rem;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1rem;
+}
+input{
+    width: 80%;
+    height: 2rem;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 15px;
+}
+input::placeholder{
+    font-style: italic;
+}
+
+button{
+    color: white;
+    background-color: crimson;
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+}
+button:hover{
+    outline: none;
+    background-color: white;
+    color: crimson;
+    border: 1px solid lightslategray;
+}
+
+button:active{
+    outline: none;
+    background-color: rgba(220, 20, 60, 0.685);
+    color: white;
+    border: none;
+}

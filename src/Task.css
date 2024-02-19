@@ -1,0 +1,13 @@
+div.task{
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    height: 4rem;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin: auto;
+}
